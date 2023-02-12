@@ -121,16 +121,10 @@
   <data name="Statsbiblioteket_læsesalen-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Statsbiblioteket_læsesalen-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-1312418673-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1312418673-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="24manguel-superJumbo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\24manguel-superJumbo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="istockphoto-1066991874-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1066991874-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\istockphoto-1066991874-170667a1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

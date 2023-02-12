@@ -73,29 +73,9 @@ namespace Bookish.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP {
-            get {
-                object obj = ResourceManager.GetObject("360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1066991874_170667a {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1066991874-170667a", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_1312418673_612x612 {
-            get {
-                object obj = ResourceManager.GetObject("istockphoto-1312418673-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
