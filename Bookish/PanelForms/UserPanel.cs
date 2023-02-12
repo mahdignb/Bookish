@@ -1,5 +1,6 @@
 ﻿using Bookish.BookForms;
 using Newtonsoft.Json;
+using System.Diagnostics;
 using System.Net.Http.Headers;
 
 namespace Bookish
@@ -42,6 +43,16 @@ namespace Bookish
         {
             var bookListForm = new AllBooks();
             bookListForm.Show();
+        }
+
+        private void HelpMenuStrip_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/mahdignb/");
+        }
+
+        private void VersionMenuStrip_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Version 1.1","Version");
         }
     }
 }

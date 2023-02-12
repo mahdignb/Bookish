@@ -34,12 +34,13 @@
             this.editBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showAllBooks = new System.Windows.Forms.ToolStripMenuItem();
-            this.borrowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.userToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showAllToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.registerUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.HelpMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
+            this.VersionMenuStrip = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(832, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1174, 42);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,7 +64,6 @@
             this.editBookToolStripMenuItem,
             this.deleteBookToolStripMenuItem,
             this.showAllBooks,
-            this.borrowToolStripMenuItem,
             this.returnBookToolStripMenuItem});
             this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
             this.bookToolStripMenuItem.Size = new System.Drawing.Size(88, 38);
@@ -72,38 +72,32 @@
             // addNewBookToolStripMenuItem
             // 
             this.addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
-            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(296, 44);
             this.addNewBookToolStripMenuItem.Text = "AddBook";
             // 
             // editBookToolStripMenuItem
             // 
             this.editBookToolStripMenuItem.Name = "editBookToolStripMenuItem";
-            this.editBookToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.editBookToolStripMenuItem.Size = new System.Drawing.Size(296, 44);
             this.editBookToolStripMenuItem.Text = "EditBook";
             // 
             // deleteBookToolStripMenuItem
             // 
             this.deleteBookToolStripMenuItem.Name = "deleteBookToolStripMenuItem";
-            this.deleteBookToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.deleteBookToolStripMenuItem.Size = new System.Drawing.Size(296, 44);
             this.deleteBookToolStripMenuItem.Text = "DeleteBook";
             // 
             // showAllBooks
             // 
             this.showAllBooks.Name = "showAllBooks";
-            this.showAllBooks.Size = new System.Drawing.Size(359, 44);
+            this.showAllBooks.Size = new System.Drawing.Size(296, 44);
             this.showAllBooks.Text = "ShowAllBooks";
             this.showAllBooks.Click += new System.EventHandler(this.ShowAllBooks_Click);
-            // 
-            // borrowToolStripMenuItem
-            // 
-            this.borrowToolStripMenuItem.Name = "borrowToolStripMenuItem";
-            this.borrowToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
-            this.borrowToolStripMenuItem.Text = "Borrow Book";
             // 
             // returnBookToolStripMenuItem
             // 
             this.returnBookToolStripMenuItem.Name = "returnBookToolStripMenuItem";
-            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.returnBookToolStripMenuItem.Size = new System.Drawing.Size(296, 44);
             this.returnBookToolStripMenuItem.Text = "Return Book";
             // 
             // userToolStripMenuItem
@@ -129,15 +123,34 @@
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.HelpMenuStrip,
+            this.VersionMenuStrip});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(99, 38);
             this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // HelpMenuStrip
+            // 
+            this.HelpMenuStrip.Name = "HelpMenuStrip";
+            this.HelpMenuStrip.Size = new System.Drawing.Size(359, 44);
+            this.HelpMenuStrip.Text = "Help";
+            this.HelpMenuStrip.Click += new System.EventHandler(this.HelpMenuStrip_Click);
+            // 
+            // VersionMenuStrip
+            // 
+            this.VersionMenuStrip.Name = "VersionMenuStrip";
+            this.VersionMenuStrip.Size = new System.Drawing.Size(359, 44);
+            this.VersionMenuStrip.Text = "Version";
+            this.VersionMenuStrip.Click += new System.EventHandler(this.VersionMenuStrip_Click);
             // 
             // UserPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 472);
+            this.BackgroundImage = global::Bookish.Properties.Resources.Statsbiblioteket_læsesalen_2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1174, 663);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "UserPanel";
@@ -157,11 +170,12 @@
         private ToolStripMenuItem editBookToolStripMenuItem;
         private ToolStripMenuItem deleteBookToolStripMenuItem;
         private ToolStripMenuItem showAllBooks;
-        private ToolStripMenuItem borrowToolStripMenuItem;
         private ToolStripMenuItem userToolStripMenuItem;
         private ToolStripMenuItem showAllToolStripMenuItem1;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem returnBookToolStripMenuItem;
         private ToolStripMenuItem registerUserToolStripMenuItem;
+        private ToolStripMenuItem HelpMenuStrip;
+        private ToolStripMenuItem VersionMenuStrip;
     }
 }
