@@ -1,4 +1,6 @@
 ﻿using Bookish.BookForms;
+using Bookish.Entities;
+using Bookish.UserForms;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Net.Http.Headers;
@@ -47,12 +49,24 @@ namespace Bookish
 
         private void HelpMenuStrip_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.linkedin.com/in/mahdignb/");
+            Process.Start("https://www.linkedin.com/in/mahdignb/");
         }
 
         private void VersionMenuStrip_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Version 1.1","Version");
+        }
+
+        private void ShowUsers_Click(object sender, EventArgs e)
+        {
+            var form = new ShowUsers();
+            form.Show();
+        }
+
+        private void ReturnBookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new ReturnBookForm();
+            form.Show();
         }
     }
 }
